@@ -33,12 +33,6 @@ def developer():
     return json.dumps(me) #parse me into a json string
 
 
-# get /api/developer/address
-# STREET #NUM, CITY, ZIPCODE
-
-# create the endpoint
-# from me dictionary get the address (dict)
-# from the address get the values and form the string
 
 @app.get("/api/developer/address")
 def dev_address():
